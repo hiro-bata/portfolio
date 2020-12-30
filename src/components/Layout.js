@@ -7,9 +7,9 @@ class Layout extends Component{
         return (
             <div>
                 {this.props.children}
-                <Link to="/">Home</Link><br/>
+                {/* <Link to="/">Home</Link><br/>
                 <Link to="/about">About</Link><br/>
-                <Link to="/work">Work</Link>
+                <Link to="/work">Work</Link> */}
             </div>
         );
     }

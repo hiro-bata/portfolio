@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+/* 全体共通 */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+/* Home */
+.home {
+  /* display: flex; */
+  position: relative;
+}
+
+.home-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(30%) translateX(-50%);
+}
+
+.name {
+  color: #BBDddd;
+  position: absolute;
+  top: -50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  margin: auto;
+  font-size: 70px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.home-button {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+.home-button button {
+  font-size: 40px;
+  padding: 20px;
+  border: none;
+  border-radius: 30px;
+}
