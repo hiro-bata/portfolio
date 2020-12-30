@@ -9,7 +9,7 @@ class Animation extends Component{
     this.scene = new THREE.Scene()
     
     this.camera = new THREE.PerspectiveCamera(
-      75,
+      65,
       width / height,
       0.1,
       1000
@@ -51,7 +51,8 @@ class Animation extends Component{
   render(){
     return(
       <div
-        style={{ width: '400px', height: '400px' }}
+        className="animation"
+        style={{ width: '600px', height: '400px' }}
         ref={(mount) => { this.mount = mount }}
       />
     )
