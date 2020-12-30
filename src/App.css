@@ -47,9 +47,12 @@ button:hover {
   opacity: 0.5;
 }
 
+ul {
+  list-style: none;
+}
+
 /* Home */
 .home {
-  /* display: flex; */
   position: relative;
 }
 
@@ -61,7 +64,7 @@ button:hover {
 }
 
 .name {
-  color: #BBDddd;
+  color: #B1F9D0;
   position: absolute;
   top: -50px;
   bottom: 0;
@@ -85,4 +88,19 @@ button:hover {
   padding: 20px;
   border: none;
   border-radius: 30px;
+}
+
+/* About */
+.about {
+  margin: 200px 300px;
+  padding: 50px 30px;
+  border: solid 5px #B1F9D0;
+}
+
+.about-content {
+  font-weight: bold;
+}
+
+.about-content-bottom {
+  margin-top: 60px;
 }
