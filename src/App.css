@@ -51,6 +51,10 @@ ul {
   list-style: none;
 }
 
+.title {
+  font-size: 50px;
+}
+
 /* Home */
 .home {
   position: relative;
@@ -93,7 +97,7 @@ ul {
 /* About */
 .about {
   margin: 200px 300px;
-  padding: 50px 30px;
+  padding: 10px 30px;
   border: solid 5px #B1F9D0;
 }
 
@@ -104,3 +108,44 @@ ul {
 .about-content-bottom {
   margin-top: 60px;
 }
+
+/* Work */
+.work {
+  margin: 200px 300px;
+  padding: 10px 30px;
+  border: solid 5px #B1F9D0;
+}
+
+.work-content {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+
+/* Card */
+.card {
+  padding: 50px 10px; 
+  width: 350px;
+}
+
+.card-text {
+  margin-top: 20px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.card-desc {
+  margin-top: 10px;
+  font-weight: normal;
+}
+
+img {
+  padding: 10px 5px;
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
