@@ -55,6 +55,24 @@ ul {
   font-size: 50px;
 }
 
+/* Header */
+.header-content {
+  font-family: 'Modak', cursive;
+  padding: 0 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 35px;
+}
+
+.header-content li {
+  transform   : skewX(-20deg);
+}
+
+.header-content li:hover {
+  color: red;
+}
+
 /* Home */
 .home {
   position: relative;
