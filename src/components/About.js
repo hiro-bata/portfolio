@@ -21,7 +21,8 @@ class About extends Component {
                         <li>2012/03　都立国立高校卒業</li>
                         <li>2013/04　一橋大学 経済学部入学</li>
                         <li>2018/03　一橋大学 経済学部卒業</li>
-                        <li>2018/04　広告代理店（インターネット広告専業）入社 営業配属</li>
+                        <li>2018/04　広告代理店（インターネット広告専業）入社 営業配属</li><br/>
+                        <li>学習スキル　HTML / CSS / JavaScript / React / Ruby / Ruby on Rails</li>
                     </ul>
 
                 </div>

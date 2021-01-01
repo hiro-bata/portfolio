@@ -114,7 +114,7 @@ ul {
 
 /* About */
 .about {
-  margin: 200px 300px;
+  margin: 100px 300px;
   padding: 10px 30px;
   border: solid 5px #B1F9D0;
 }
@@ -129,7 +129,7 @@ ul {
 
 /* Work */
 .work {
-  margin: 200px 300px;
+  margin: 100px 300px;
   padding: 10px 30px;
   border: solid 5px #B1F9D0;
 }
@@ -144,6 +144,10 @@ ul {
 .card {
   padding: 50px 10px; 
   width: 350px;
+}
+
+.card:hover {
+  opacity: 0.5;
 }
 
 .card-text {
