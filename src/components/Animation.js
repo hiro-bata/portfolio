@@ -52,7 +52,7 @@ class Animation extends Component{
     return(
       <div
         className="animation"
-        style={{ width: '600px', height: '400px' }}
+        style={{ width: '500px', height: '300px' }}
         ref={(mount) => { this.mount = mount }}
       />
     )

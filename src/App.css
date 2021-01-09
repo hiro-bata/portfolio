@@ -55,6 +55,13 @@ ul {
   font-size: 50px;
 }
 
+@media screen and (max-width: 480px){
+  
+  .title {
+    text-align: center;
+  }
+}
+
 /* Header */
 .header-content {
   font-family: 'Modak', cursive;
@@ -73,21 +80,39 @@ ul {
   color: red;
 }
 
+@media screen and (max-width: 480px){
+  
+  .header-content {
+    padding: 0 30px;
+  }
+}
+
 /* Home */
 .home {
   position: relative;
 }
 
 .home-content {
-  position: absolute;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
   top: 50%;
   left: 50%;
   transform: translateY(30%) translateX(-50%);
 }
 
+
+
+.animation {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+}
+
 .name {
+  width: 100%;
   color: #B1F9D0;
-  position: absolute;
+  position: relative;
   top: -50px;
   bottom: 0;
   left: 0;
@@ -100,8 +125,10 @@ ul {
 }
 
 .home-button {
+  width: 500px;
   display: flex;
   justify-content: space-between;
+  margin: 0 auto;
   padding: 0 100px;
 }
 
@@ -112,9 +139,17 @@ ul {
   border-radius: 30px;
 }
 
+@media screen and (max-width: 700px){
+  .home {
+    position: absolute;
+  }
+}
+
+
 /* About */
 .about {
-  margin: 100px 300px;
+  width: 900px;
+  margin: 100px auto;
   padding: 10px 30px;
   border: solid 5px #B1F9D0;
 }
@@ -127,9 +162,17 @@ ul {
   margin-top: 60px;
 }
 
+@media screen and (max-width: 480px){
+  .about {
+    width: 400px;
+    margin: 100px auto;
+  }
+}
+
 /* Work */
 .work {
-  margin: 100px 300px;
+  width: 900px;
+  margin: 100px auto;
   padding: 10px 30px;
   border: solid 5px #B1F9D0;
 }
@@ -138,6 +181,18 @@ ul {
   display: flex;
   flex-wrap: wrap;
   font-weight: bold;
+  padding: 0 80px;
+}
+
+@media screen and (max-width: 480px){
+  .work {
+    width: 400px;
+    margin: 100px auto;
+  }
+
+  .work-content {
+    padding: 0 15px;
+  }
 }
 
 /* Card */
@@ -170,4 +225,5 @@ img {
   height: 200px;
   object-fit: cover;
 }
+
 
