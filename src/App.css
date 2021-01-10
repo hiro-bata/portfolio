@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -81,6 +82,15 @@ ul {
 }
 
 @media screen and (max-width: 480px){
+
+  .header-content {
+    font-family: 'Modak', cursive;
+    padding: 0 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 27px;
+  }
   
   .header-content {
     padding: 0 30px;
@@ -100,8 +110,6 @@ ul {
   left: 50%;
   transform: translateY(30%) translateX(-50%);
 }
-
-
 
 .animation {
   width: 600px;
@@ -143,7 +151,66 @@ ul {
   .home {
     position: absolute;
   }
+
 }
+
+@media screen and (max-width: 480px){
+  .home {
+    position: relative;
+  }
+
+  canvas {
+    width: 250px !important;
+    height: 270px !important;
+  }
+
+  .home-content {
+    width: 300px;
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translateY(30%) translateX(-50%);
+  }
+
+  .animation {
+    width: 250px !important;
+    height: 330px !important;
+    margin: 0 auto;
+  }
+
+  .name {
+    width: 100%;
+    color: #B1F9D0;
+    position: relative;
+    top: -50px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .home-button {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+
+  .home-button button {
+    font-size: 30px;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+  }
+
+}
+
 
 
 /* About */
@@ -164,7 +231,8 @@ ul {
 
 @media screen and (max-width: 480px){
   .about {
-    width: 400px;
+    width: 320px;
+    padding: 10px 10px;
     margin: 100px auto;
   }
 }
@@ -186,7 +254,8 @@ ul {
 
 @media screen and (max-width: 480px){
   .work {
-    width: 400px;
+    width: 320px;
+    padding: 10px 10px;
     margin: 100px auto;
   }
 
@@ -224,6 +293,19 @@ img {
   width: 350px;
   height: 200px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 480px){
+  .card {
+    padding: 50px 0px; 
+    width: 350px;
+  }
+
+  img {
+    width: 275px;
+    height: 200px;
+    object-fit: cover;
+  }
 }
 
 
