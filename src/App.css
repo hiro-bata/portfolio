@@ -160,7 +160,7 @@ ul {
   }
 
   canvas {
-    width: 250px !important;
+    width: 200px !important;
     height: 270px !important;
   }
 
@@ -170,11 +170,11 @@ ul {
     margin: 0;
     top: 50%;
     left: 50%;
-    transform: translateY(30%) translateX(-50%);
+    transform: translateY(10%) translateX(-50%);
   }
 
   .animation {
-    width: 250px !important;
+    width: 200px !important;
     height: 330px !important;
     margin: 0 auto;
   }
