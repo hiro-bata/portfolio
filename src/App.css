@@ -160,8 +160,8 @@ ul {
   }
 
   canvas {
-    width: 200px !important;
-    height: 270px !important;
+    width: 150px !important;
+    height: 230px !important;
   }
 
   .home-content {
@@ -174,8 +174,8 @@ ul {
   }
 
   .animation {
-    width: 200px !important;
-    height: 330px !important;
+    width: 150px !important;
+    height: 270px !important;
     margin: 0 auto;
   }
 
