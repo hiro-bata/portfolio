@@ -4,7 +4,9 @@ import ProLabo from '../images/workplace-sharing.jpeg';
 import TimeManage from "../images/time-manage.jpeg"
 import ReactApp from "../images/schedule.png"
 import Portfolio from "../images/portfolio.png"
+import Judge from "../images/judge.png"
 import Header from "./Header"
+
 
 class Work extends Component {
   render() {
@@ -17,6 +19,7 @@ class Work extends Component {
                     <Card title="PRO LABO" desc="一人作業が捗るカフェやレストランをシェアするRailsアプリ。ログインしていないくても、投稿の閲覧と最寄駅をもとにした検索が可能。ユーザー登録・ログインを行えば、新規投稿やお気に入り追加ができる。" link="https://workplace-sharing.herokuapp.com/" img={ProLabo}/>
                     <Card title="Portfolio" desc="Reactで実装したPortfolioサイト。" link="https://portfolio-e9886.web.app/" img={Portfolio}/>
                     <Card title="Time-manage" desc="実行したアクションと時間を記録することで、1日のうち、何に何時間かけているかを可視化し、時間の有効活用に役立てるRailsアプリ。AWS上でデプロイ。" link="https://time-manage-0603.herokuapp.com/" img={TimeManage}/>
+                    <Card title="Judge" desc="選択肢を入力し、Judgeボタンを押すと、選択肢の中からランダムで1つが選ばれるReactアプリ。判断に迷ったら使用。" link="https://judge-69905.web.app/" img={Judge}/>
             </div>
         </div>
     );
