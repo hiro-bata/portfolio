@@ -24,7 +24,7 @@ class About extends Component {
                         <li>2018/04　広告代理店（インターネット広告専業）入社 営業配属</li><br/>
                         <li>学習スキル　HTML / CSS / JavaScript / React / Ruby / Ruby on Rails</li>
                     </ul>
-
+                    <button><a href="https://chatbot-6eaf8.firebaseapp.com/" target="_blank">詳細はコチラのCHAT BOTにて</a></button>
                 </div>
             </div>
         </div>
