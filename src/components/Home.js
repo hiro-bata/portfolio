@@ -8,7 +8,7 @@ class Home extends Component {
         <div className="home">
             <div className="home-content">
                 <Animation className="animation"/>
-                <h1 className="name">Hiroki Kawabata</h1>
+                <h1 className="name">Hiroki's Portfolio</h1>
                 <div className="home-button">
                     <button><Link to="/about">About</Link></button>
                     <button><Link to="/work">Work</Link></button>

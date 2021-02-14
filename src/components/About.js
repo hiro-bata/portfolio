@@ -10,7 +10,7 @@ class About extends Component {
             <div className="about-content">
                 <div className="about-content-top">
                     <ul>
-                        <li>Name：Hiroki Kawabata</li>
+                        <li>Name：Hiroki</li>
                         <li>University：一橋大学 経済学部</li>
                         <li>Birthday：1994/03/13</li>
                     </ul>
